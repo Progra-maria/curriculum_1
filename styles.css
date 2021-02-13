@@ -1,0 +1,71 @@
+body
+{
+  width: = 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    padding-bottom: 50px;
+}
+.foto_perfil {
+    
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+}
+.barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+.barra
+  li {
+    float: left;
+  }
+.barra
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.barra
+  li a:hover {
+    background-color: #111;
+  }
+  videos_publi_flex_container p{
+    font-size: 14px;
+  }
+  .videos_publi_flex_container > div {
+    float:left;
+    background-color: #A7FF00;
+    width: 400px;
+    height: fit-content;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    overflow: hidden;
+    padding-top: 20px;
+
+  }
+p.fs10{
+  font-size: 10px;
+}
+
+.izda{
+  float:left;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+#menciones{
+  display: block;
+  clear:both;
+}
